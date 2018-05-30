@@ -1,4 +1,6 @@
-# electron-quick-start
+# Tinyblocks-electron
+
+Tinyblocks ElectronJs Desktop App
 
 **Clone and run for a quick way to see Electron in action.**
 
