@@ -1,0 +1,109 @@
+<!---------------------------------------------
+
+		This file is only for popup designs
+
+----------------------------------------------->
+
+
+<!-- popup for send money -->
+	<div class="modal fade money-send" id="send-money">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content  py-4">
+				<div class="modal-body">
+					<h3 class="mb-5">SEND BITCOIN</h3>
+
+					<div class="amount d-flex justify-content-between">
+						<h5>AMOUNT</h5>
+						<h4>
+						<input  type="number" name="amount" placeholder="Amount" style="direction: rtl;"> |mBTC</h4>
+					</div>
+					<hr>
+					<div class="recipent-address d-flex justify-content-between">
+						<h5>RECIPENT BITCOIN ADDRESS</h5>
+						<h4>
+						<input  type="text" name="amount" placeholder="Bitcoin address" style="direction: rtl;"></h4>
+					</div>
+					<hr>
+					<div class="debit-account d-flex justify-content-between">
+						<h5>ACCOUNT TO DEBIT</h5>
+						<h4>
+						<select class="form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</select></h4>
+					</div>
+					<hr>
+					<div class="transaction-fees d-flex justify-content-between">
+						<h5>TRANSACTION FEES</h5>
+						<h4>
+						<select class="form-control">
+							<option>High</option>
+							<option>Midium</option>
+							<option>Low</option>
+						</select></h4>
+					</div>
+					<hr>
+					<div class="transaction-fees d-flex justify-content-between">
+						<h5>TOTAL SPENT</h5>
+						<h5>mBTC 0 efrjer rrr eer</h5>
+					</div>
+				</div>
+				<div class="modal-footer d-flex justify-content-between">
+					<button type="button" class="btn btn-default choose-btn position-relative" ><span class="lnr lnr-camera"></span><input type="file" name="pic" accept="image/*"></button>
+          <div class="rgt-btn">
+          	<button type="button" class="btn btn-default mr-3" data-dismiss="modal">CANCEL</button>
+						<button type="button" class="btn btn-primary">SEND</button>
+					</div>
+        </div>
+			</div>
+		</div>
+	</div>
+<!-- end popup for send money -->
+
+
+<!-- popup for RECIVE money -->
+	<div class="modal fade money-receive" id="receive-money">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content  py-4">
+				<div class="modal-body">
+					<h3 class="mb-5">RECEIVE BITCOIN</h3>
+
+					<div class="amount d-flex justify-content-between">
+						<h5>AMOUNT</h5>
+						<h4>
+						<input  type="number" name="amount" placeholder="Amount" style="direction: rtl;"> |mBTC</h4>
+					</div>
+					<hr>
+					<div class="recipent-address d-flex justify-content-between">
+						<h5>RECIPENT BITCOIN ADDRESS</h5>
+						<h4>
+						<input  type="text" name="amount" placeholder="Bitcoin address" style="direction: rtl;"></h4>
+					</div>
+					<hr>
+					<div class="debit-account d-flex justify-content-between">
+						<h5>ACCOUNT TO CREDIT</h5>
+						<h4>
+						<select class="form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</select></h4>
+					</div>
+					<div class="qr-code text-center">
+						<img class="w-25" src="images/qr-code.svg">
+					</div>
+				</div>
+				<div class="modal-footer d-flex justify-content-between">
+					<button type="button" class="btn btn-default choose-btn position-relative" ><span class="lnr lnr-camera"></span><input type="file" name="pic" accept="image/*"></button>
+          <div class="rgt-btn">
+          	<button type="button" class="btn btn-default mr-3" data-dismiss="modal">CANCEL</button>
+						<button type="button" class="btn btn-primary">RECEIVE</button>
+					</div>
+        </div>
+			</div>
+		</div>
+	</div>
+<!-- end popup for RECIVE money -->

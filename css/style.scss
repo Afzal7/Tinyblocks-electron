@@ -1,0 +1,157 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: whitesmoke;
+}
+
+/*-----------------------------
+
+						common css
+
+-------------------------------*/
+.fw-200 {
+	font-weight: 200;
+}
+.mt-10-neg {
+	margin-top: -10px;
+}
+.max-320 {
+	max-width: 320px;
+}
+
+/*-----------------------------
+
+						bootstrap
+
+-------------------------------*/
+.breadcrumb {
+  background: transparent;
+  margin: 0;
+}
+.card {
+	border-radius: 15px;
+	border: none;
+}
+.modal-lg {
+  max-width: 600px;
+}
+.btn-primary, .btn-default {
+    border-radius: 50px;
+    padding: 8px 30px;
+}
+/*-----------------------------
+
+						sidebar
+
+-------------------------------*/
+.left-col {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+	#app-navbar {
+		width: 300px;
+		.navbar-brand {
+			font-family: 'Josefin Slab', serif;
+			font-size: 30px;
+			opacity: .5;
+			img {
+				width: 40px;
+				margin-top: -15px;
+			}
+		}
+		.navbar-nav {
+			.nav-item {
+				.nav-link {
+					font-size: 20px;
+					color: white;
+					opacity: .6;
+					padding: 15px 0px;
+					img {
+						width: 30px;
+					}
+					&:hover {
+						color: white;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.right-col {
+  margin-left: 300px;
+  .header-top {
+    background: #f9f9f9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    border-bottom: 1px solid #ececec;
+    .right-header {
+    	.navbar {
+    		.navbar-nav {
+    			.nav-item {
+    				.nav-link {
+    					color: #6d6d6d;
+    					display: flex;
+    					align-items: center;
+    					.lnr {
+    						margin-right: 5px;
+    					}
+    				}
+    			}
+    		}
+    	}
+    }
+	}
+	.main-content {
+    margin-top: 65px;
+    padding: 15px 0px;
+    .card-body {
+    	.action-btn {
+    		.btn-primary {
+			    border-radius: 50px;
+			    padding: 12px 50px;
+			    margin-right: 15px;
+				}
+    	}
+    }
+	}
+}
+
+/*-----------------------------
+
+						popup money send
+
+-------------------------------*/
+
+.money-send, .money-receive {
+	.modal-dialog {
+		.modal-content {
+			.modal-body {
+				input, select {
+			    border: none;
+			    outline: 0;
+			    &::placeholder {
+			    	font-weight: 200;
+			    }
+				}
+			}
+			.modal-footer {
+				.choose-btn {
+					input[type="file"] {
+				    opacity: 0;
+				    width: 100%;
+				    position: absolute;
+				    left: 0;
+				    height: 100%;
+				    top: 0;
+				    cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}
