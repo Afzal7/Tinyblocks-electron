@@ -22,7 +22,7 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone git@github.com:Afzal7/tinyblocks-electronjs.git
 # Go into the repository
 cd electron-quick-start
 # Install dependencies
