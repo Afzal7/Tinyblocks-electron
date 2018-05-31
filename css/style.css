@@ -59,7 +59,7 @@ a {
   overflow: auto;
   z-index: 10; }
   .left-col #app-navbar {
-    width: 300px;
+    width: 0px;
     transition: .5s all; }
     .left-col #app-navbar .closebtn {
       display: none;
