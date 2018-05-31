@@ -63,7 +63,6 @@ a {
 		width: 0px;
 		transition: .5s all;
 		.closebtn {
-			display: none;
 	    position: absolute;
 	    font-size: 30px;
 	    top: 0px;
@@ -105,20 +104,17 @@ a {
 }
 
 .right-col {
-  margin-left: 300px;
   .header-top {
     background: #f9f9f9;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    margin-left: 300px;
-    width: calc(100% - 300px);
     z-index: 9;
     border-bottom: 1px solid #ececec;
     .left-header {
     	.menu-bar {
-    		display: none;
+    		/*display: none;*/
     	}
     }
     .right-header {
@@ -335,14 +331,14 @@ a {
 -------------------------------*/
 
 @media screen and (max-width: 1200px) {
-	.left-col {
+	/*.left-col {
 		#app-navbar {
 			.closebtn {
 				display: block;
 			}
 		}
-	}
-	.right-col,	.right-col .header-top {
+	}*/
+	/*.right-col,	.right-col .header-top {
     margin-left: 0px;
     width: 100%;
     .left-header {
@@ -351,4 +347,4 @@ a {
     	}
     }
 	}
-}
+*/}
