@@ -48,6 +48,26 @@ a {
 
 /*-----------------------------
 
+				landing page
+
+-------------------------------*/
+.landing-page {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: white;
+  height: 100%;
+  width: 100%; }
+  .landing-page .navbar-brand {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px; }
+    .landing-page .navbar-brand img {
+      width: 60px; }
+  .landing-page .mid-section {
+    background: aliceblue; }
+
+/*-----------------------------
+
 						sidebar
 
 -------------------------------*/
@@ -74,7 +94,7 @@ a {
     .left-col #app-navbar .navbar-brand {
       font-family: 'Josefin Slab', serif;
       font-size: 30px;
-      opacity: .5; }
+      opacity: 1; }
       .left-col #app-navbar .navbar-brand img {
         width: 40px;
         margin-top: -15px; }
