@@ -1,0 +1,8 @@
+"app-category-type": "public.app-category.productivity",
+    "asar": false,
+    "dmg": {
+    
+    },
+    "win": {
+        "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+    },

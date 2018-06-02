@@ -2,9 +2,12 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "./app/main.js",
   "scripts": {
-    "start": "electron ."
+    "postinstall": "install-app-deps",
+    "start": "electron ./app --enable-logging",
+    "dev": "NODE_ENV='development' npm run start",
+    "dist": "build -mwl --x64 --ia32"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +20,19 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "electron-builder": "^20.15.1"
+  },
+  "devDependencies": {
+    "electron-builder": "~5.12.X",
+    "electron-prebuilt": "~1.2.X"
+  },
+  "build": {
+    "appId": "hr.creaticon.eatodo",
+    
+    "linux": {
+      "target": "deb",
+      "category": "Development"
+    }
   }
 }

@@ -1,0 +1,7 @@
+{
+    "name": "TinyBlocks",
+    "description": "Crypto Wallet",
+    "version": "0.0.1",
+    "author": "A<a@a.com>",
+    "main": "./main.js"
+}
