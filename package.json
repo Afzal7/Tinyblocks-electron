@@ -21,15 +21,15 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0",
-    "electron-builder": "^20.15.1"
-  },
-  "devDependencies": {
-    "electron-builder": "~5.12.X",
+    "electron-builder": "^5.12.1",
     "electron-prebuilt": "~1.2.X"
   },
   "build": {
     "appId": "hr.creaticon.eatodo",
-    
+    "mac": {
+      "category": "your.app.category.type",
+      "target": "dmg"
+    },
     "linux": {
       "target": "deb",
       "category": "Development"
